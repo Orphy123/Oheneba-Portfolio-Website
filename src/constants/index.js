@@ -122,9 +122,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Nov 2022 - Feb 2023",
     points: [
-      "Collaborating on a variety of projects, including troubleshooting, debugging, and efficient management of existing business solutions.",
+      "Spearheaded various projects at Bashpole Software, focusing on troubleshooting, debugging, and managing software business solutions to boost operational efficiency.",
       "Working with JavaScript, CSS, HTML, Google Apps Script, and Google Tag Manager to develop software management tools and processes to enhance the performance of fellow engineers.",
-      "Prioritize and execute software development life cycle tasks such as designing database architecture, testing, and debugging applications, and validating software functionality and security.",
+      "Managed vital SDLC tasks, including robust database design, application debugging, and software validation, ensuring the delivery of secure, high-quality software.",
     ],
   },
   {
@@ -134,9 +134,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2021 - Apr 2022",
     points: [
-      "Optimized an algorithm to populate our website database with UTF-8 texts and make them user-friendly.",
-      "The software was implemented on a small scale in a few classes at the University of Richmond.",
-      "Utilized Python and JavaScript in designing the algorithm and used GitHub to collaborate with the team.",
+      "Developed and optimized a user-friendly interface for the digital reading platform, Textopian, utilizing Python and JavaScript. Key features included chapter segmentation, interactive tools for users to place emojis, comments, and questions, and a classroom tracking system for educators.",
+      "Created an innovative algorithm to automate the importation and formatting of public database texts into the Textopian system, resulting in a 60% increase in operational efficiency and streamlining the content adaptation process.",
+      "Led debugging efforts across projects, ensuring seamless user interaction with various texts and maintaining the platform's overall functionality and performance, while enhancing the usability of the platform for its diverse user base.",
     ],
   },
   {
