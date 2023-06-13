@@ -1,6 +1,6 @@
 Model Information:
-* title:	Earthquakes - 2000 to 2019
-* source:	https://sketchfab.com/3d-models/earthquakes-2000-to-2019-894ad84ceb8b444a91fbc05f20530bcd
+* title:	A Windy Day
+* source:	https://sketchfab.com/3d-models/a-windy-day-fb78f4cc938144e6902dd5cff354d525
 * author:	Loïc Norgeot (https://sketchfab.com/norgeotloic)
 
 Model License:
@@ -8,4 +8,4 @@ Model License:
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Earthquakes - 2000 to 2019" (https://sketchfab.com/3d-models/earthquakes-2000-to-2019-894ad84ceb8b444a91fbc05f20530bcd) by Loïc Norgeot (https://sketchfab.com/norgeotloic) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "A Windy Day" (https://sketchfab.com/3d-models/a-windy-day-fb78f4cc938144e6902dd5cff354d525) by Loïc Norgeot (https://sketchfab.com/norgeotloic) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

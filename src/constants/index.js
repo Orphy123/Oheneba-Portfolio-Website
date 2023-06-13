@@ -167,7 +167,7 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "Working with Oheneba has been an incredible experience. His expertise in web development has greatly enhanced my understanding of computer science. I'm grateful for their guidance throughout my studies at the University of Richmond.",
+    testimonial: "Working with Oheneba has been an incredible experience. His expertise in web development has greatly enhanced my understanding of computer science.",
     name: "William",
     designation: "Computer Science Student",
     company: "University of Richmond",
@@ -175,7 +175,7 @@ const testimonials = [
   }
   ,
   {
-    testimonial: "Oheneba's contributions to our projects at Bashpole Software have been invaluable. His deep understanding of software engineering and attention to detail have significantly improved our product's performance. It's a pleasure to work alongside such a skilled professional.",
+    testimonial: "Oheneba's contributions to our projects at Bashpole Software have been invaluable. His deep understanding of software engineering and attention to detail have significantly improved our product's performance.",
     name: "Rose",
     designation: "Software Engineer",
     company: "Bashpole Software",
@@ -183,7 +183,7 @@ const testimonials = [
   }
   ,
   {
-    testimonial: "I never thought I'd find someone as passionate about web development as Oheneba. His creativity and dedication shine through in every project He undertakes. Oheneba's innovative approach has undoubtedly left a positive impact on our online presence.",
+    testimonial: "I never thought I'd find someone as passionate about web development as Oheneba. His creativity and dedication shine through in every project He undertakes.",
     name: "Matilda",
     designation: "Marketing Professional",
     company: "Falcon Corporation",
@@ -256,7 +256,7 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/Orphy123/Android-MineSweeper",
   },
-    
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
