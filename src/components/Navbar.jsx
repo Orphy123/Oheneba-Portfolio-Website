@@ -54,15 +54,15 @@ const Navbar = () => {
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-blue-600" : "text-white"
-              } hover:text-blue-600 text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
+              <li
+                  key={nav.id}
+                  className={`${
+                      active === nav.title ? "text-blue-600" : "text-white"
+                  } hover:text-blue-600 text-[18px] font-medium cursor-pointer`}
+                  onClick={() => setActive(nav.title)}
+              >
+                <a href={nav.link ? nav.link : `#${nav.id}`} target={nav.link ? "_blank" : "_self"} rel="noopener noreferrer">{nav.title}</a>
+              </li>
           ))}
           <li className='cursor-pointer'>
             <a href="https://github.com/Orphy123" target="_blank" rel="noopener noreferrer">
@@ -75,6 +75,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
