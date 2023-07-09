@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import profilePic from "/Users/ohenebaberko/Downloads/MyPortWeb/src/assets/minePic.jpeg";
+// import profilePic from "/Users/ohenebaberko/Downloads/MyPortWeb/src/assets/minePic.jpeg";
+import profilePic from '../assets/minePic.jpeg'
 import { useSpring, animated as a } from 'react-spring';
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
