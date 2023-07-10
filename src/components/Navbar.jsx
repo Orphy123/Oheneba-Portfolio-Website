@@ -85,28 +85,35 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
-          <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
-          >
+          <div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
-                <li
-                  key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
-                  }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                  }}
-                >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
-                </li>
+                  <li
+                      key={nav.id}
+                      className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                          active === nav.title ? "text-white" : "text-secondary"
+                      }`}
+                      onClick={() => {
+                        setToggle(!toggle);
+                        setActive(nav.title);
+                      }}
+                  >
+                    <a href={nav.link ? nav.link : `#${nav.id}`} target={nav.link ? "_blank" : "_self"} rel="noopener noreferrer">{nav.title}</a>
+                  </li>
               ))}
+              <li className='cursor-pointer'>
+                <a href="https://github.com/Orphy123" target="_blank" rel="noopener noreferrer">
+                  <img src={githubIcon} alt='GitHub' className='w-6 h-6' />
+                </a>
+              </li>
+              <li className='cursor-pointer'>
+                <a href="https://linkedin.com/in/ohenebaberko-123" target="_blank" rel="noopener noreferrer">
+                  <img src={linkedinIcon} alt='LinkedIn' className='w-6 h-6' />
+                </a>
+              </li>
             </ul>
           </div>
+
 
 
 
