@@ -2,6 +2,8 @@
 
 This portfolio website is a comprehensive showcase of my skills, experiences, and various projects. It has been designed with a unique 3D element on the landing page using Three.js, adding a touch of novelty and interactivity.
 
+<img src="https://github.com/Orphy123/Oheneba-Portfolio-Website/blob/main/images/ph1.png" />
+
 
 
 ## Features
@@ -29,3 +31,7 @@ The website employs modern web development libraries, technologies, and design p
 - Responsive Design: The website ensures responsiveness across all devices and improves site performance using React's Suspense and Preload features.
 
 This portfolio website stands as an example of modern web development practices, providing a comprehensive view of my capabilities while offering developers an insight into well-structured, scalable, and maintainable web application development.
+
+## Link to the website
+This is the link to the website:
+[MY PORTFOLIO](https://ohenebaportfolio.netlify.app/)
