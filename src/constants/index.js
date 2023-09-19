@@ -23,7 +23,19 @@ import {
   jobit,
   tripguide,
   threejs,
+
 } from "../assets";
+import {imat4} from "three/nodes";
+import triph from "../assets/triph.png";
+import ph1 from "../assets/ph1.jpeg";
+import mineS from "../assets/mineS.png";
+import sports from "../assets/sports.png";
+import tictac from "../assets/tictac.png";
+import deep from "../assets/deep.png";
+import weat from "../assets/weat.png";
+
+
+// export const triph = require('"../assets/triph.png"');
 
 export const navLinks = [
   {
@@ -41,7 +53,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    link: "https://drive.google.com/file/d/1GmlxhEGpFzlGhnISA7ymgvigLpEDw9vS/view?usp=sharing"
+    link: "https://drive.google.com/file/d/12FhPfz9vzcZTz3-Vxob8HuQRHz-DAv4h/view?usp=sharing"
   },
 ];
 
@@ -217,7 +229,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: sports,
     source_code_link: "https://github.com/Orphy123/Sports-With-Me",
   },
   {
@@ -238,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: deep,
     source_code_link: "https://github.com/Orphy123/YOLO-based-Car-Object-Detection",
   },
   {
@@ -259,8 +271,54 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: mineS,
     source_code_link: "https://github.com/Orphy123/Android-MineSweeper",
+  },
+  {
+    name: "Android TicTacToe",
+    description:
+        "Challenge your friends in a classic duel of Xs and Os with a modern touch. This interactive game offers a fun experience for everyone!",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+
+      },
+      {
+        name: "Multiplayer Functionality",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UI/UX",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tictac,
+    source_code_link: "https://github.com/Orphy123/TicTacToe",
+  },
+  //   change the picture for Weather APP
+  {
+    name: "Android Weather App",
+    description:
+        "This advanced version of WeatherApp stands as a testament to modern app development practices, offering users a refined weather tracking experience while providing developers an example of a well-structured, scalable, and maintainable application.",
+    tags: [
+      {
+        name: "Kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OneMap API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Fused Location Provider",
+        color: "pink-text-gradient",
+      },
+
+
+    ],
+    image: weat,
+    source_code_link: "https://github.com/Orphy123/Android-Weather-App",
   },
 
 ];
