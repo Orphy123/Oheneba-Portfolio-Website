@@ -2,7 +2,7 @@
 
 This portfolio website is a comprehensive showcase of my skills, experiences, and various projects. It has been designed with a unique 3D element on the landing page using Three.js, adding a touch of novelty and interactivity.
 
-<img src="https://github.com/Orphy123/Oheneba-Portfolio-Website/blob/main/images/ph1.png" />
+<img src="https://github.com/Orphy123/Oheneba-Portfolio-Website/blob/main/images/ph50.png" />
 
 
 
