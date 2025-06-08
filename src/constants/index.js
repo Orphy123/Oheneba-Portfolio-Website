@@ -131,55 +131,42 @@ const technologies = [
 ];
 
 const experiences = [
-
-   {
-    title: "Lead Software Engineer",
-    company_name: "Open Trellis",
-    icon: starbucks,
-    iconBg: "#E6DEDD",
-    date: "Aug 2023 – Present",
-    points: [
-      "Ship full-stack features across React/Next.js, Node.js & TypeScript, powering a community platform for small-business founders.",
-      "Architect fault-tolerant back-end (Prisma + PlanetScale MySQL & Redis caching) that boosted uptime and cut p95 latency.",
-      "Mentor a 4-person dev team and translate shareholder goals into an actionable product road-map.",
-    ],
-  },
-
-
-  {
-    title: "Software Engineering Intern",
-    company_name: "LLAMAWOOD",
-    icon: Textopian,
-    iconBg: "#383E56",
-    date: "May 2024 – Aug 2024",
-    points: [
-      "Built the start-up’s first scalable firewood-delivery platform, wiring the Uber Freight API for real-time routing, pricing, and dispatch.",
-      "Centralized customer, inventory & delivery data into a single back-end, enabling smarter inventory analytics and faster decision-making.",
-    ],
-  },
   {
     title: "Software Engineering Intern",
     company_name: "Bashpole Software",
-    icon: shopify,
-    iconBg: "#E6DEDD",
-    date: "Nov 2022 – Feb 2023",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "Nov 2022 - Feb 2023",
     points: [
-      "Overhauled legacy UI with React & Node, lifting daily-active engagement by 20 % in one release cycle.",
-      "Led peer code-reviews and coached interns on clean-code and testing, improving commit quality and throughput by 10 %.",
+      "Spearheaded various projects at Bashpole Software, focusing on troubleshooting, debugging, and managing software business solutions to boost operational efficiency.",
+      "Working with JavaScript, CSS, HTML, Google Apps Script, and Google Tag Manager to develop software management tools and processes to enhance the performance of fellow engineers.",
+      "Managed vital SDLC tasks, including robust database design, application debugging, and software validation, ensuring the delivery of secure, high-quality software.",
     ],
   },
   {
-    title: "Research Assistant",
+    title: " Software Developer Intern",
+    company_name: "Textopian",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Sep 2021 - Apr 2022",
+    points: [
+      "Developed and optimized a user-friendly interface for the digital reading platform, Textopian, utilizing Python and JavaScript. Key features included chapter segmentation, interactive tools for users to place emojis, comments, and questions, and a classroom tracking system for educators.",
+      "Created an innovative algorithm to automate the importation and formatting of public database texts into the Textopian system, resulting in a 60% increase in operational efficiency and streamlining the content adaptation process.",
+      "Led debugging efforts across projects, ensuring seamless user interaction with various texts and maintaining the platform's overall functionality and performance, while enhancing the usability of the platform for its diverse user base.",
+    ],
+  },
+  {
+    title: "Acadmic Research Intern",
     company_name: "University of Richmond",
     icon: shopify,
     iconBg: "#383E56",
-    date: "May 2021 – Aug 2024",
+    date: "May 2022 - May 2023",
     points: [
-      "Engineered adversarial attacks against RNN-based speech-recognition models (DeepSpeech2), revealing real-world vulnerabilities.",
-      "Created a hybrid LIME/LEMNA explainability framework and automated ablation studies with SciPy, Pandas & scikit-learn.",
+      "Designed and implemented Python algorithms for attacking Voice Processing Systems with an 85% success rate.",
+      "Developed a unique LIME/LEMNA explanation method for deep learning Speech Recognition Systems.",
+      "Conducted extensive ablation study of DeepSpeech2 using SciPy, Pandas, and Scikit-learn.",
     ],
   },
-
   {
     title: "Strategy Consulting Intern",
     company_name: "Diive",
