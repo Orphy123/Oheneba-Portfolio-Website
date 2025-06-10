@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import openTrellis from "./company/openTrellis.svg";
+import llamawood from "./company/llamawood.svg";
+import bashpole from "./company/bashpole.svg";
+import ur from "./company/ur.svg";
+
 export {
   logo,
   backend,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  openTrellis,
+  llamawood,
+  bashpole,
+  ur,
 };

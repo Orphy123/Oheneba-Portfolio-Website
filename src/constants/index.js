@@ -33,6 +33,10 @@ import sports from "../assets/sports.png";
 import tictac from "../assets/tictac.png";
 import deep from "../assets/deep.png";
 import weat from "../assets/weat.png";
+import openTrellis from "../assets/company/openTrellis.svg";
+import llamawood from "../assets/company/llamawood.svg";
+import bashpole from "../assets/company/bashpole.svg";
+import ur from "../assets/company/ur.svg";
 
 
 // export const triph = require('"../assets/triph.png"');
@@ -132,51 +136,47 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Lead Software Engineer",
+    company_name: "Open Trellis",
+    icon: openTrellis,
+    iconBg: "#383E56",
+    date: "August 2023 - Present",
+    points: [
+      "Drive end‑to‑end development of Open Trellis products, launch polished React/Next.js interfaces, and architect a fault‑tolerant backend with Node.js, TypeScript, Prisma, PlanetScale (MySQL), and Redis caching.",
+      "Collaborate closely with shareholders to align technical solutions with business goals by supervising a development team and providing technical expertise on the board to drive strategic initiatives.",
+    ],
+  },
+  {
+    title: "Software Engineering Intern",
+    company_name: "LLAMAWOOD",
+    icon: llamawood,
+    iconBg: "#E6DEDD",
+    date: "May 2024 - August 2024",
+    points: [
+      "Spearheaded the development of LLAMAWOOD's first scalable firewood delivery platform, integrating Uber Freight API into a custom logistics app that enabled real-time routing, pricing, and dispatch automation.",
+      "Led data infrastructure overhaul by centralizing fragmented customer, inventory, and delivery datasets into a streamlined backend system, enabling actionable analytics and smarter inventory decisions.",
+    ],
+  },
+  {
     title: "Software Engineering Intern",
     company_name: "Bashpole Software",
-    icon: starbucks,
+    icon: bashpole,
     iconBg: "#383E56",
-    date: "Nov 2022 - Feb 2023",
+    date: "November 2022 - February 2023",
     points: [
-      "Spearheaded various projects at Bashpole Software, focusing on troubleshooting, debugging, and managing software business solutions to boost operational efficiency.",
-      "Working with JavaScript, CSS, HTML, Google Apps Script, and Google Tag Manager to develop software management tools and processes to enhance the performance of fellow engineers.",
-      "Managed vital SDLC tasks, including robust database design, application debugging, and software validation, ensuring the delivery of secure, high-quality software.",
+      "Spearheaded a React and Node.js UI overhaul that modernized the product's look‑and‑feel and lifted daily active engagement by 20% within one release cycle.",
+      "Led peer code‑review rounds that raised overall commit quality and drove a 10% jump in intern throughput, while coaching teammates on clean‑code practices and test coverage.",
     ],
   },
   {
-    title: " Software Developer Intern",
-    company_name: "Textopian",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Sep 2021 - Apr 2022",
-    points: [
-      "Developed and optimized a user-friendly interface for the digital reading platform, Textopian, utilizing Python and JavaScript. Key features included chapter segmentation, interactive tools for users to place emojis, comments, and questions, and a classroom tracking system for educators.",
-      "Created an innovative algorithm to automate the importation and formatting of public database texts into the Textopian system, resulting in a 60% increase in operational efficiency and streamlining the content adaptation process.",
-      "Led debugging efforts across projects, ensuring seamless user interaction with various texts and maintaining the platform's overall functionality and performance, while enhancing the usability of the platform for its diverse user base.",
-    ],
-  },
-  {
-    title: "Acadmic Research Intern",
+    title: "Research Assistant",
     company_name: "University of Richmond",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "May 2022 - May 2023",
-    points: [
-      "Designed and implemented Python algorithms for attacking Voice Processing Systems with an 85% success rate.",
-      "Developed a unique LIME/LEMNA explanation method for deep learning Speech Recognition Systems.",
-      "Conducted extensive ablation study of DeepSpeech2 using SciPy, Pandas, and Scikit-learn.",
-    ],
-  },
-  {
-    title: "Strategy Consulting Intern",
-    company_name: "Diive",
-    icon: meta,
+    icon: ur,
     iconBg: "#E6DEDD",
-    date: "Jun 2022 - Aug 2022",
+    date: "May 2021 - August 2024",
     points: [
-      "Worked with a leading healthcare company called Hear.com to create an operation center to streamline their filling and processing of medical health insurance claims.",
-      "Collaborated with a software company called GoodX Software to create a system that integrates with the entire management portion of their current business model.",
-      "Tested our integrated business model against other institutions using alternative software solution systems to determine the rigidity of our solution system.",
+      "Engineered and evaluated adversarial attacks against RNN-based speech recognition models (e.g., DeepSpeech2), exposing vulnerabilities in real-world voice systems through gradient-based perturbation and preprocessing exploits.",
+      "Developed a novel hybrid LIME/LEMNA interpretability framework that isolated spectral dependencies in ASR models, validated via automated ablation studies using SciPy, Pandas, and scikit-learn.",
     ],
   },
 ];

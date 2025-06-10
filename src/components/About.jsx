@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // import profilePic from "/Users/ohenebaberko/Downloads/MyPortWeb/src/assets/minePic.jpeg";
 import profilePic from '../assets/minePic.jpeg'
 import { useSpring, animated as a } from 'react-spring';
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -10,7 +10,13 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-    <Tilt className='w-full sm:w-[250px]'>
+    <Tilt
+        tiltMaxAngleX={45}
+        tiltMaxAngleY={45}
+        scale={1}
+        transitionSpeed={450}
+        className='w-full sm:w-[250px]'
+    >
         <motion.div
             variants={fadeIn("right", "spring", index * 0.5, 0.75)}
             className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
