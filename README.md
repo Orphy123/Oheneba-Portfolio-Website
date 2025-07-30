@@ -35,3 +35,4 @@ This portfolio website stands as an example of modern web development practices,
 ## Link to the website
 This is the link to the website:
 [MY PORTFOLIO](https://ohenebaportfolio.netlify.app/)
+# Auto-sync setup complete
