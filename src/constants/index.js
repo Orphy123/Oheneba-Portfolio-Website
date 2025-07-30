@@ -35,6 +35,7 @@ import deep from "../assets/deep.png";
 import weat from "../assets/weat.png";
 import masteryai from "../assets/homepage.gif";
 import fine from "../assets/fine.png";
+import mainPage from "../assets/mainPage.png";
 import openTrellis from "../assets/company/openTrellis.svg";
 import llamawood from "../assets/company/llamawood.svg";
 import bashpole from "../assets/company/bashpole.svg";
@@ -361,6 +362,27 @@ const projects = [
     ],
     image: fine,
     source_code_link: "https://github.com/Orphy123/financial-edge-ai",
+  },
+  {
+    name: "Okada Hackathon",
+    description:
+        "AI-powered Commercial Real Estate assistant featuring Retrieval-Augmented Generation (RAG) technology for intelligent document processing and portfolio analysis. Combines conversational AI with CRM tracking, enabling natural language queries for property data, multi-document search capabilities, and session management with automatic conversation tagging and analytics.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mainPage,
+    source_code_link: "https://github.com/Orphy123/Okada-CO-Hackathon",
   },
 
 ];
