@@ -34,6 +34,7 @@ import tictac from "../assets/tictac.png";
 import deep from "../assets/deep.png";
 import weat from "../assets/weat.png";
 import masteryai from "../assets/homepage.gif";
+import fine from "../assets/fine.png";
 import openTrellis from "../assets/company/openTrellis.svg";
 import llamawood from "../assets/company/llamawood.svg";
 import bashpole from "../assets/company/bashpole.svg";
@@ -339,6 +340,27 @@ const projects = [
     ],
     image: masteryai,
     source_code_link: "https://github.com/Orphy123/Mastery.ai",
+  },
+  {
+    name: "Financial Edge AI",
+    description:
+        "A cutting-edge trading platform that leverages artificial intelligence and real-time market data to provide sophisticated trading insights. Features AI-powered market predictions, sentiment analysis, pattern recognition, interactive charts with technical indicators, and a secure, responsive interface designed for modern traders to make informed decisions.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fine,
+    source_code_link: "https://github.com/Orphy123/financial-edge-ai",
   },
 
 ];
