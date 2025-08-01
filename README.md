@@ -152,26 +152,6 @@ The portfolio is deployed on **Netlify** with automatic deployments from the mai
 
 ---
 
-## 📁 Project Structure
-
-```
-src/
-├── components/           # React components
-│   ├── canvas/          # 3D Three.js components
-│   ├── About.jsx        # About section
-│   ├── Experience.jsx   # Experience timeline
-│   ├── Hero.jsx         # Landing section
-│   ├── Navbar.jsx       # Navigation
-│   ├── Tech.jsx         # Technology showcase
-│   └── Works.jsx        # Projects section
-├── constants/           # Static data and content
-├── assets/             # Images, models, and media
-├── hoc/                # Higher-order components
-├── utils/              # Utility functions
-└── styles.js           # Global styles
-```
-
----
 
 ## 🎯 Performance & Optimization
 
