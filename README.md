@@ -62,7 +62,7 @@ This isn't just another portfolio website—it's an **interactive 3D experience*
 - **Particle System**: Animated star field background for immersive experience
 
 ### 📱 Professional Sections
-- **Hero Landing**: Engaging introduction with animated 3D computer
+- **Hero Landing**: Engaging introduction with animated 3D Globe
 - **About Me**: Interactive cards highlighting Full-Stack, iOS, Android, and Software Engineering skills
 - **Experience Timeline**: Professional journey from Research Assistant to Lead Software Engineer
 - **Tech Stack**: 3D visualization of programming languages and technologies
