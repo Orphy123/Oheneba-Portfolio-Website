@@ -9,7 +9,7 @@
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-2ea44f?style=for-the-badge)](https://ohenebaportfolio.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Orphy123/Oheneba-Portfolio-Website)
 
-[🚀 View Live](https://ohenebaportfolio.netlify.app/) • [📋 Resume](https://drive.google.com/file/d/12FhPfz9vzcZTz3-Vxob8HuQRHz-DAv4h/view?usp=sharing) • [💼 LinkedIn](https://linkedin.com/in/oheneba-berko) • [👨‍💻 GitHub](https://github.com/Orphy123)
+[🚀 View Live](https://ohenebaportfolio.netlify.app/) • [📋 Resume](https://drive.google.com/file/d/12FhPfz9vzcZTz3-Vxob8HuQRHz-DAv4h/view?usp=sharing) • [💼 LinkedIn](https://www.linkedin.com/in/ohenebaberko-123/) • [👨‍💻 GitHub](https://github.com/Orphy123)
 
 </div>
 
