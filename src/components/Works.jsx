@@ -19,11 +19,11 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
-        tiltMaxAngleX={45}
-        tiltMaxAngleY={45}
-        scale={1}
-        transitionSpeed={450}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        tiltMaxAngleX={8}
+        tiltMaxAngleY={8}
+        scale={1.02}
+        transitionSpeed={300}
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300'
       >
         <div className='relative w-full h-[230px]'>
           <img
