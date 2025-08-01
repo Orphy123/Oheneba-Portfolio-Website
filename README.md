@@ -206,6 +206,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **⭐ If you found this portfolio inspiring, please give it a star!**
 
-*Built with ❤️ by Oheneba Berko*
+
 
 </div>
