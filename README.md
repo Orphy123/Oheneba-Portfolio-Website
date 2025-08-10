@@ -56,13 +56,13 @@ This isn't just another portfolio website—it's an **interactive 3D experience*
 ## 🌟 Key Features
 
 ### 🎮 Interactive 3D Elements
-- **Animated Computer Model**: A detailed 3D computer that responds to user interactions
+
 - **Dynamic Earth Globe**: Rotating planet with realistic textures and lighting
 - **Floating Tech Icons**: 3D spheres showcasing technology stack
 - **Particle System**: Animated star field background for immersive experience
 
 ### 📱 Professional Sections
-- **Hero Landing**: Engaging introduction with animated 3D computer
+- **Hero Landing**: Engaging introduction with animated 3D Globe
 - **About Me**: Interactive cards highlighting Full-Stack, iOS, Android, and Software Engineering skills
 - **Experience Timeline**: Professional journey from Research Assistant to Lead Software Engineer
 - **Tech Stack**: 3D visualization of programming languages and technologies
