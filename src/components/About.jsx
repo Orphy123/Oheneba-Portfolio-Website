@@ -99,7 +99,7 @@ const About = () => {
                     className='mt-4 text-secondary text-[17px] sm:max-w-3xl leading-[30px]'
                 >
                     Hello Everyone,<br/> <br/>
-                    I'm Oheneba Berko, a Computer Science undergraduate at the University of Richmond with a minor in Entrepreneurship.
+                    I am Oheneba Berko, a Computer Science graduate from the University of Richmond with minors in Entrepreneurship and Mathematics.
                     A technologist at heart and an entrepreneur by choice, I have honed my skills in Software Engineering and Business
                     Consulting to create a unique blend of technical proficiency and business acumen.<br/>
                     <br/>

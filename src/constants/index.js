@@ -206,9 +206,9 @@ const testimonials = [
   {
     testimonial: "I never thought I'd find someone as passionate about web development as Oheneba. His creativity and dedication shine through in every project He undertakes.",
     name: "Matilda",
-    designation: "Marketing Professional",
-    company: "Falcon Corporation",
-    image: "https://randomuser.me/api/portraits/women/9.jpg"
+    designation: "Data Analyst Intern",
+    company: "LlamaWood",
+    image: "https://randomuser.me/api/portraits/women/4.jpg"
   }
   ,
 ];
@@ -299,7 +299,7 @@ const projects = [
     image: tictac,
     source_code_link: "https://github.com/Orphy123/TicTacToe",
   },
-  //   change the picture for Weather APP
+
   {
     name: "Android Weather App",
     description:
