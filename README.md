@@ -1,4 +1,4 @@
-# 🌟 Oheneba Berko - Interactive 3D Portfolio
+# 🌟 Oheneba Berko - 3D Portfolio
 
 <div align="center">
 
